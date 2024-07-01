@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">PracticeApp</string>
+    <string name="app_name">Practice App</string>
+    <string name="enter_message">Write message</string>
+    <string name="submit">Submit</string>
+    <string name="menu_message">Message</string>
+    <string name="menuHome">Home</string>
+    <string name="no_text">No text provided!</string>
+    <string name="menu1">Menu 1</string>
+    <string name="menu2">Menu 2</string>
+    <string name="menu3">Menu 3</string>
 </resources>

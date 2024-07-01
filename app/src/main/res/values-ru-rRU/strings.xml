@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice App</string>
+    <string name="enter_message">Напишите сообщение</string>
+    <string name="submit">Отправить</string>
+    <string name="menu_message">Сообщения</string>
+    <string name="menuHome">Домой</string>
+    <string name="no_text">Для отправки текста требуется заполнить поле</string>
+    <string name="menu1">Меню 1</string>
+    <string name="menu2">Меню 2</string>
+    <string name="menu3">Меню 3</string>
+</resources>
