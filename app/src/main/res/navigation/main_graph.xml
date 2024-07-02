@@ -37,10 +37,18 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
-        android:id="@+id/menu1Fragment"
-        android:name="com.deaddev.practiceapp.fragments.dummy.Menu1Fragment"
+        android:id="@+id/catsMenuFragment"
+        android:name="com.deaddev.practiceapp.fragments.CatsMenuFragment"
         android:label="fragment_menu1"
-        tools:layout="@layout/fragment_menu1" />
+        tools:layout="@layout/fragment_cats_menu" >
+        <action
+            android:id="@+id/action_catsMenuFragment_to_catAdvancedFragment"
+            app:destination="@id/catAdvancedFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
     <fragment
         android:id="@+id/menu2Fragment"
         android:name="com.deaddev.practiceapp.fragments.dummy.Menu2Fragment"
@@ -51,5 +59,18 @@
         android:name="com.deaddev.practiceapp.fragments.dummy.Menu3Fragment"
         android:label="fragment_menu3"
         tools:layout="@layout/fragment_menu3" />
+    <fragment
+        android:id="@+id/catAdvancedFragment"
+        android:name="com.deaddev.practiceapp.fragments.CatAdvancedFragment"
+        android:label="fragment_cat_advanced"
+        tools:layout="@layout/fragment_cat_advanced" >
+        <action
+            android:id="@+id/action_catAdvancedFragment_to_catsMenuFragment"
+            app:destination="@id/catsMenuFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 
 </navigation>

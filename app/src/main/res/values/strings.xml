@@ -5,7 +5,24 @@
     <string name="menu_message">Message</string>
     <string name="menuHome">Home</string>
     <string name="no_text">No text provided!</string>
-    <string name="menu1">Menu 1</string>
+    <string name="cats_menu">Cats</string>
     <string name="menu2">Menu 2</string>
     <string name="menu3">Menu 3</string>
+    <string name="breed_maine_coon">Maine Coon</string>
+    <string name="breed_bengal">Bengal cat</string>
+    <string name="breed_ragdoll">Ragdoll</string>
+    <string name="breed_abyssinian">Abyssinian</string>
+    <string name="breed_sphynx">Sphynx</string>
+    <string name="breed_british_shorthair">British Shorthair</string>
+    <string name="breed_russian_blue">Russian blue</string>
+    <string name="breed_maine_coon_description">They are known for their size and luxurious long coat Maine Coons are considered a gentle giant. The good-natured and affable Maine Coon adapts well to many lifestyles and personalities. She likes being with people and has the habit of following them around, but isn’t needy. Most Maine Coons love water and they can be quite good swimmers.</string>
+    <string name="breed_bengal_description">Bengals are a lot of fun to live with, but they\'re definitely not the cat for everyone, or for first-time cat owners. Extremely intelligent, curious and active, they demand a lot of interaction and woe betide the owner who doesn\'t provide it.</string>
+    <string name="breed_ragdoll_description">Ragdolls love their people, greeting them at the door, following them around the house, and leaping into a lap or snuggling in bed whenever given the chance. They are the epitome of a lap cat, enjoy being carried and collapsing into the arms of anyone who holds them.</string>
+    <string name="breed_abyssinian_description">The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.</string>
+    <string name="breed_sphynx_description">The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed. Sphynx commonly greet their owners  at the front door, with obvious excitement and happiness. She has an unexpected sense of humor that is often at odds with her dour expression.</string>
+    <string name="breed_british_shorthair_description">The British Shorthair is a very pleasant cat to have as a companion, ans is easy going and placid. The British is a fiercely loyal, loving cat and will attach herself to every one of her family members. While loving to play, she doesn\'t need hourly attention. If she is in the mood to play, she will find someone and bring a toy to that person. The British also plays well by herself, and thus is a good companion for single people.</string>
+    <string name="breed_russian_blue_description">Russian Blues are very loving and reserved. They do not like noisy households but they do like to play and can be quite active when outdoors. They bond very closely with their owner and are known to be compatible with other pets.</string>
+    <string name="age_range" translatable="false">%1$d - %2$d</string>
+    <string name="read_more" translatable="false">%1$s...</string>
+    <string name="max_age">Maximum age:</string>
 </resources>
