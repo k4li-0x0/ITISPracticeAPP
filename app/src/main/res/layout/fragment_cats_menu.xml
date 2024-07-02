@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.dummy.Menu1Fragment">
+    tools:context=".fragments.CatsMenuFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCatsList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/menu1"
-        style="@style/AppTitle"/>
+        tools:listitem="@layout/item_cat_short_card"/>
 
 </FrameLayout>
